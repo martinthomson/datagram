@@ -5,9 +5,9 @@
 QUIC                                                            T. Pauly
 Internet-Draft                                                E. Kinnear
 Intended status: Standards Track                              Apple Inc.
-Expires: 11 October 2021                                     D. Schinazi
+Expires: 17 December 2021                                    D. Schinazi
                                                               Google LLC
-                                                            9 April 2021
+                                                            15 June 2021
 
 
                 An Unreliable Datagram Extension to QUIC
@@ -39,7 +39,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 11 October 2021.
+   This Internet-Draft will expire on 17 December 2021.
 
 Copyright Notice
 
@@ -53,9 +53,9 @@ Copyright Notice
 
 
 
-Pauly, et al.            Expires 11 October 2021                [Page 1]
+Pauly, et al.           Expires 17 December 2021                [Page 1]
 
-Internet-Draft               QUIC Datagrams                   April 2021
+Internet-Draft               QUIC Datagrams                    June 2021
 
 
    and restrictions with respect to this document.  Code Components
@@ -109,9 +109,9 @@ Table of Contents
 
 
 
-Pauly, et al.            Expires 11 October 2021                [Page 2]
+Pauly, et al.           Expires 17 December 2021                [Page 2]
 
-Internet-Draft               QUIC Datagrams                   April 2021
+Internet-Draft               QUIC Datagrams                    June 2021
 
 
 1.1.  Specification of Requirements
@@ -165,9 +165,9 @@ Internet-Draft               QUIC Datagrams                   April 2021
 
 
 
-Pauly, et al.            Expires 11 October 2021                [Page 3]
+Pauly, et al.           Expires 17 December 2021                [Page 3]
 
-Internet-Draft               QUIC Datagrams                   April 2021
+Internet-Draft               QUIC Datagrams                    June 2021
 
 
 3.  Transport Parameter
@@ -221,9 +221,9 @@ Internet-Draft               QUIC Datagrams                   April 2021
 
 
 
-Pauly, et al.            Expires 11 October 2021                [Page 4]
+Pauly, et al.           Expires 17 December 2021                [Page 4]
 
-Internet-Draft               QUIC Datagrams                   April 2021
+Internet-Draft               QUIC Datagrams                    June 2021
 
 
    Application protocols that use datagrams MUST define how they react
@@ -277,9 +277,9 @@ Internet-Draft               QUIC Datagrams                   April 2021
 
 
 
-Pauly, et al.            Expires 11 October 2021                [Page 5]
+Pauly, et al.           Expires 17 December 2021                [Page 5]
 
-Internet-Draft               QUIC Datagrams                   April 2021
+Internet-Draft               QUIC Datagrams                    June 2021
 
 
    DATAGRAM frames MUST be protected with either 0-RTT or 1-RTT keys.
@@ -333,9 +333,9 @@ Internet-Draft               QUIC Datagrams                   April 2021
 
 
 
-Pauly, et al.            Expires 11 October 2021                [Page 6]
+Pauly, et al.           Expires 17 December 2021                [Page 6]
 
-Internet-Draft               QUIC Datagrams                   April 2021
+Internet-Draft               QUIC Datagrams                    June 2021
 
 
 5.3.  Congestion Control
@@ -389,9 +389,9 @@ Internet-Draft               QUIC Datagrams                   April 2021
 
 
 
-Pauly, et al.            Expires 11 October 2021                [Page 7]
+Pauly, et al.           Expires 17 December 2021                [Page 7]
 
-Internet-Draft               QUIC Datagrams                   April 2021
+Internet-Draft               QUIC Datagrams                    June 2021
 
 
 8.  Acknowledgments
@@ -445,9 +445,9 @@ Internet-Draft               QUIC Datagrams                   April 2021
 
 
 
-Pauly, et al.            Expires 11 October 2021                [Page 8]
+Pauly, et al.           Expires 17 December 2021                [Page 8]
 
-Internet-Draft               QUIC Datagrams                   April 2021
+Internet-Draft               QUIC Datagrams                    June 2021
 
 
 Authors' Addresses
@@ -501,4 +501,4 @@ Authors' Addresses
 
 
 
-Pauly, et al.            Expires 11 October 2021                [Page 9]
+Pauly, et al.           Expires 17 December 2021                [Page 9]
