@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-04-09T18:06:11.489799+00:00",
+  "timestamp": "2021-06-15T23:16:18.675136+00:00",
   "repo": "quicwg/datagram",
   "labels": [
     {
@@ -1267,9 +1267,9 @@
       "labels": [],
       "body": "This PR changes the TP from `max_datagram_frame_size` to `max_datagram_payload_size`.\r\n\r\nFixes #3.",
       "createdAt": "2020-05-07T19:12:54Z",
-      "updatedAt": "2020-05-08T22:33:26Z",
+      "updatedAt": "2021-06-15T23:15:43Z",
       "baseRepository": "quicwg/datagram",
-      "baseRefName": "master",
+      "baseRefName": "main",
       "baseRefOid": "5fe5d4edd3efe42b74e0bba1489c0feb9fcef9c6",
       "headRepository": "nibanks/datagram",
       "headRefName": "pr/max-datagram-payload-size",
@@ -1606,9 +1606,9 @@
       "labels": [],
       "body": "Clarify meaning of 0 in the datagram transport parameter, based on the discussion at IETF 110. This follows one of the suggestions to have 0 mean no datagrams, and > 0 mean support for datagrams. This should be a non-breaking change with existing implementations.\r\n\r\nCloses #3 ",
       "createdAt": "2021-03-31T18:31:58Z",
-      "updatedAt": "2021-03-31T20:58:29Z",
+      "updatedAt": "2021-06-15T23:15:43Z",
       "baseRepository": "quicwg/datagram",
-      "baseRefName": "master",
+      "baseRefName": "main",
       "baseRefOid": "6dec1591e44a54fc1ed6f1c6f43c7196b30d6acc",
       "headRepository": "quicwg/datagram",
       "headRefName": "tfpauly-patch-1",
@@ -1688,9 +1688,9 @@
       "labels": [],
       "body": "Closes #6",
       "createdAt": "2021-03-31T18:55:19Z",
-      "updatedAt": "2021-03-31T21:13:55Z",
+      "updatedAt": "2021-06-15T23:15:43Z",
       "baseRepository": "quicwg/datagram",
-      "baseRefName": "master",
+      "baseRefName": "main",
       "baseRefOid": "6dec1591e44a54fc1ed6f1c6f43c7196b30d6acc",
       "headRepository": "quicwg/datagram",
       "headRefName": "tfpauly-patch-2",
@@ -1824,6 +1824,26 @@
               "body": "I'm not too bothered by a circular reference but I don't think it adds much. The wire format is simple. The main complexity of the H3 draft comes from how the flow IDs meld with HTTP semantics. So if you're going to reference it then be more specific about why, or just don't bother IMO.\r\n\r\nAnd if you are going to reference it, let's use the MASQUE edited draft ",
               "createdAt": "2021-03-31T21:13:54Z",
               "updatedAt": "2021-03-31T21:13:55Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NjU3MzA5NjQ2",
+          "commit": {
+            "abbreviatedOid": "76d135a"
+          },
+          "author": "LPardue",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2021-05-11T23:30:58Z",
+          "updatedAt": "2021-05-11T23:30:58Z",
+          "comments": [
+            {
+              "originalPosition": 35,
+              "body": "Given some of the churn in H3 DGRAM, how about we extract this third paragraph into another issue/PR that we can sit on while we land the other changes?",
+              "createdAt": "2021-05-11T23:30:58Z",
+              "updatedAt": "2021-05-11T23:30:58Z"
             }
           ]
         }
